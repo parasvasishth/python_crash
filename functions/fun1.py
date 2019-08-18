@@ -33,3 +33,105 @@
 # make_shirt()
 # make_shirt(size="medium")
 # make_shirt(size="medium",message="I love Java")
+
+
+# todo cities
+
+#
+# def describe_city(name,country="India"):
+#     print(name.title()+" is in " + country)
+#
+#
+#
+# describe_city(name="delhi")
+# describe_city(name="ludhian")
+# describe_city(name="lahor",country="pakistan")
+
+
+
+# todo return values
+
+
+# def get_full_name(first_name,last_name):
+#     full_name = first_name + " " + last_name
+#     return full_name
+#
+# print( get_full_name("anmol","sharma"))
+# print(mv)
+
+
+# todo using funcation with while loop
+#
+# def get_name(first_name,last_name):
+#     full_name = first_name + " " + last_name
+#     return full_name.title()
+#
+# while True:
+#     print("\n Please enter your name")
+#     print("(enter 'q' at any time to quit)")
+#     f_name = input("First Name: ")
+#     if f_name =='q':
+#         break
+#     l_name = input("Last Name: ")
+#     if l_name == 'q':
+#         break
+#     form_name = get_name(f_name,l_name)
+#     print("\n Hello," +form_name)
+
+
+# todo Passing a List
+# def greet_users(names):
+#     for name in names:
+#         msg = "Hello, " + name.title() + "!"
+#         print(msg)
+#
+# usernames = ['paras', 'anmol','jatin','ty']
+# greet_users(usernames)
+
+
+# todo Modifying a List in a Function
+# def print_models(unp_de,comp_models):
+#     while unp_de:
+#         current_design = unp_de.pop()
+#         print("Printing Stuff: " + current_design)
+#         comp_models.append(current_design)
+# def show_completed_models(comp_models):
+#     print("\nThe following models have been printed:")
+#     for com in comp_models:
+#         print(com)
+#
+#
+# unp_de = ['iphone','robot','doc']
+# comp_models = []
+# print_models(unp_de[:],comp_models)
+# show_completed_models(comp_models)
+# print(unp_de)
+
+
+#todo show magicians
+
+# def show_mess(list_mess):
+#     for list in list_mess:
+#         print("Hello "+list.title()+" !")
+#
+#
+# def make_great(magicians):
+#     great_magicians=[]
+#
+#     while magicians:
+#         magician = magicians.pop()
+#         great_magician = magician + ' The great'
+#         great_magicians.append(great_magician)
+#
+#
+#     for great_magician in great_magicians:
+#         magicians.append(great_magician)
+#
+#
+# magicians = ['paras','anmol','jatin']
+#
+# show_mess(magicians)
+# print("\n")
+# make_great(magicians)
+# show_mess(magicians)
+
